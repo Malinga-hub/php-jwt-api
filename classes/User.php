@@ -30,7 +30,7 @@ class User
         $this->password = password_hash($data['password'], PASSWORD_BCRYPT);
         //$this->password = $data['password'];
 
-        echo $this->username . ' ' . $this->email . ' ' . $this->password;
+        //echo $this->username . ' ' . $this->email . ' ' . $this->password;
         //query
         $query = "INSERT INTO " . $this->table_name . "(email,username,password) VALUES(?,?,?) ";
 
