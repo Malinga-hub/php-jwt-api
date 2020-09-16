@@ -1,5 +1,6 @@
 # php-jwt-api
-Simple php "todos"api with jwt authentication
+Simple php "todos"api with jwt authentication <br>
+Used firebase php-jwt: https://github.com/firebase/php-jwt
 
 ## Installation
 clone repository to your directory <br>
