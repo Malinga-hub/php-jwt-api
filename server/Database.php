@@ -21,10 +21,22 @@ class Database
         $this->db = "todos";*/
 
         //remote server
-        $this->host = "sql306.epizy.com";
+        /* $this->host = "sql306.epizy.com";
         $this->username = "epiz_26755204";
         $this->password = "14102897Simz@";
-        $this->db = "epiz_26755204_todosApi";
+        $this->db = "epiz_26755204_todosApi";*/
+
+        /**
+         * Username: zO6WLBHeeg
+         * Database name: zO6WLBHeeg
+         * Password: 9ABkwtzTGQ
+         * Server: remotemysql.com
+         */
+
+        $this->host = "remotemysql.com";
+        $this->username = "zO6WLBHeeg";
+        $this->password = "9ABkwtzTGQ";
+        $this->db = "zO6WLBHeeg";
 
         try {
             $this->conn = mysqli_connect($this->host, $this->username, $this->password, $this->db);
