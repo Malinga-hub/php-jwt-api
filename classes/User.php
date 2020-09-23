@@ -71,9 +71,6 @@ class User
         $this->email = $data['email'];
         $this->password = $data['password'];
 
-        print_r($data);
-        die();
-
         //get user by email
         $user = $this->getUserByEmail()->fetch_assoc();
 
